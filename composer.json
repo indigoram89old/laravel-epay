@@ -1,0 +1,34 @@
+{
+    "name": "indigoram89/laravel-epay",
+    "description": "Epay laravel package for Laravel 5",
+    "keywords": [
+        "indigoram89", "laravel", "epay"
+    ],
+    "homepage": "https://github.com/indigoram89/laravel-epay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Orlov",
+            "email": "maksimorlov.personal@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigoram89\\Laravel\\Epay\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indigoram89\\Laravel\\Epay\\EpayServiceProvider"
+            ],
+            "aliases": {
+                "Epay": "Indigoram89\\Laravel\\Epay\\Facades\\Epay"
+            }
+        }
+    }
+}
