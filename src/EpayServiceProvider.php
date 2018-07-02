@@ -47,6 +47,6 @@ class EpayServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['package'];
+        return ['epay'];
     }
 }
