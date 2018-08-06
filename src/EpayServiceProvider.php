@@ -47,6 +47,6 @@ class EpayServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['epay'];
+        return ['epay', EpayContract::class];
     }
 }
